@@ -34,7 +34,7 @@ def log_state() -> None:
 
     # Stop logging after `_MAX_SECONDS` seconds
     if _frame_count > _FPS * _MAX_SECONDS:
-        return
+        returngame_events.jsonl
 
     # Take a snapshot approx. once per second
     _frame_count += 1
